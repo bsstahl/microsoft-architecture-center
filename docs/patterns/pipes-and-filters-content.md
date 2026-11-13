@@ -96,7 +96,7 @@ An architect should evaluate how the Pipes and Filters pattern can be used in th
 
 | Pillar | How this pattern supports pillar goals |
 | :----- | :------------------------------------- |
-| [Reliability](/azure/well-architected/reliability/checklist) design decisions help your workload become **resilient** to malfunction and to ensure that it **recovers** to a fully functioning state after a failure occurs. | The single responsibility of each stage enables focused attention and avoids the distraction of commingled data processing.<br/><br/> - [RE:01 Simplicity](/azure/well-architected/reliability/simplify)<br/> - [RE:07 Background jobs](/azure/well-architected/reliability/background-jobs) |
+| [Reliability](/azure/well-architected/reliability/checklist) design decisions help your workload become **resilient** to malfunction and to ensure that it **recovers** to a fully functioning state after a failure occurs. | The single responsibility of each stage enables focused attention and avoids the distraction of commingled data processing.<br/><br/> - [RE:01 Simplicity](/azure/well-architected/reliability/simplify)<br/> - [RE:07 Background jobs](/azure/well-architected/design-guides/background-jobs) |
 
 As with any design decision, consider any tradeoffs against the goals of the other pillars that might be introduced with this pattern.
 
