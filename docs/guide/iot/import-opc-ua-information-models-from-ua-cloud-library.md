@@ -69,7 +69,7 @@ First, configure an Azure Data Explorer callout policy for the UA Cloud Library 
 Next, run the following Azure Data Explorer query from the Azure portal. In the query:
 
 - Replace `<INFORMATION_MODEL_IDENTIFIER_FROM_THE_UA_CLOUD_LIBRARY>` with the unique ID of the information model you want to import from the UA Cloud Library. You can find this ID in the URL of the information model's page in the UA Cloud Library. For example, the ID of the station nodeset that this guide uses is `1627266626`.
-- Replace `<HASHED_CLOUD_LIBRARY_CREDENTIALS>` with a basic authorization header hash of your UA Cloud Library credentials. Use the following command block to generate the hash:
+- Replace only `<HASHED_CLOUD_LIBRARY_CREDENTIALS>` with the Base64-encoded `username:password` value for your UA Cloud Library account. Keep the existing `Basic` prefix and the space after it in the `Authorization` header. Use the following command block to generate the encoded value:
 
    ```powershell
    $username = "myUser"
