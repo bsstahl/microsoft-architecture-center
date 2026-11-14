@@ -58,7 +58,7 @@ Tagging, in both Azure and AWS, enables you to organize and manage resources eff
 
 Azure applies the following limits:
 
-- Each resource, resource group, and subscription supports a maximum of 50 tag name-value pairs. Some resource types support only 15.
+- Each resource, resource group, and subscription supports a maximum of 50 tag name-value pairs. Some resource types [support only 15 tags](/azure/azure-resource-manager/management/tag-resources#limitations).
 - Tag names are limited to 512 characters and tag values to 256 characters. For storage accounts, tag names are limited to 128 characters.
 - You can tag resources, resource groups, and subscriptions, but not management groups.
 
