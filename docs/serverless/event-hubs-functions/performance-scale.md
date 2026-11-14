@@ -194,7 +194,7 @@ For examples of using C# to publish single and multiple events, see [Azure Event
 
 ### Output multiple events with the Isolated worker model (C#)
 
-Depending on the Functions runtime version, the Isolated worker model supports different types for the parameters that are passed to the output binding. For multiple events, an array is used to encapsulate the set. We recommend that you review the output binding attributes and usage details for the Isolated model and note the differences between the extension versions.
+In the isolated worker model, return an array of events to publish multiple events in a batch. For details about supported output types, see [Event Hubs output binding usage](/azure/azure-functions/functions-bindings-event-hubs-output?pivots=programming-language-csharp&tabs=extensionv5%2Cisolated-process#usage).
 
 ### Throttling and back pressure
 
