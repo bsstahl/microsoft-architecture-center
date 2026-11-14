@@ -123,7 +123,7 @@ If you can't connect to your private cluster:
 You can use native client tunneling to connect directly to AKS private clusters without a jump box. This approach supports persistent, long-running access and keeps your native client tooling working from your local machine.
 
  > [!IMPORTANT]
- > This capability requires the Standard or Premium Azure Bastion SKU with native client support enabled. For additional prerequisites and connection instructions, see [Connect to AKS private clusters by using Azure Bastion](/azure/bastion/bastion-connect-to-aks-private-cluster).
+ > This capability requires the Standard or Premium Azure Bastion SKU with native client support enabled. Azure Bastion native client tunneling isn't supported for AKS Automatic clusters or for clusters that have network resource group (NRG) lockdown. For additional prerequisites and connection instructions, see [Connect to AKS private clusters by using Azure Bastion](/azure/bastion/bastion-connect-to-aks-private-cluster).
 
 #### Requirements
 
@@ -161,9 +161,6 @@ You can use native client tunneling to connect directly to AKS private clusters 
    ```
 
 For more information, see [Connect to AKS private clusters by using Azure Bastion](/azure/bastion/bastion-connect-to-aks-private-cluster).
-
-> [!NOTE]
-> Azure Bastion native client tunneling isn't supported for AKS Automatic clusters or for clusters that have network resource group (NRG) lockdown.
 
 ## Improve security
 

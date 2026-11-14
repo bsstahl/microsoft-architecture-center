@@ -69,7 +69,7 @@ Consider the following points as you decide how to implement this pattern:
 
 - **Access control on views.** When a materialized view is used to restrict which data subsets are visible to certain consumers, such as for security or privacy reasons, the view store must enforce the same or stricter access controls as the source data. Your refresh pipeline must exclude unintended columns or rows, because a view that accidentally includes data beyond its intended scope can expose protected data.
 
-- **Data lifecycle on views.** Apply the source data's retention and deletion requirements to every materialized view. Propagate source deletions and redactions within the required period, and include each view in compliance monitoring. For more information, see [Data governance and security baselines with Microsoft Purview](/azure/cloud-adoption-framework/data/governance-security-baselines-purview-data-estate-unify-data-platform).
+- **Data lifecycle on views.** Apply the source data's retention and deletion requirements to every materialized view. Propagate source deletions and redactions within the required period, and include each view in compliance monitoring. For more information, see [Data governance in a unified data platform](/azure/cloud-adoption-framework/data/data-governance-unified-data-platform).
 
 - **View lifecycle management.** Treat view definitions as deployable artifacts managed through source control and CI/CD pipelines, especially when views are defined declaratively. Without lifecycle management, view definitions can drift between environments, causing inconsistent query behavior across development, staging, and production.
 
