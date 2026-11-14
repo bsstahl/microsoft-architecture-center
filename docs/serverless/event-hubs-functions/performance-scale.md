@@ -194,7 +194,7 @@ For examples of using C# to publish single and multiple events, see [Azure Event
 
 ### Output multiple events with the Isolated worker model (C#)
 
-The types that the Event Hubs output binding supports depend on the extension package version and the C# execution model. With the isolated worker model and Event Hubs extension v5.x or later, use `T[]` to send multiple events, where `T` is `string`, `byte[]`, or a JSON-serializable type. Each array entry represents one event. For supported types and extension-version details, see [Event Hubs output binding usage](/azure/azure-functions/functions-bindings-event-hubs-output?pivots=programming-language-csharp&tabs=extensionv5%2Cisolated-process#usage).
+In the isolated worker model, return an array of events to publish multiple events in a batch. For details about supported output types, see [Event Hubs output binding usage](/azure/azure-functions/functions-bindings-event-hubs-output?pivots=programming-language-csharp&tabs=extensionv5%2Cisolated-process#usage).
 
 ### Throttling and back pressure
 
