@@ -123,7 +123,7 @@ The following data flow corresponds to the Contoso data platform diagram:
 
 1. **Data share**
 
-   - [External data sharing](/fabric/governance/external-data-sharing-overview) in Fabric lets a provider tenant securely share OneLake data with a consumer tenant. This capability supports cross-tenant access and collaboration without moving data. In the previous diagram, a provider tenant is the organization that shares data externally, and a consumer tenant is the organization that accesses and uses that shared data.
+   - [External data sharing](/fabric/governance/external-data-sharing-overview) in Fabric lets a provider tenant securely share OneLake data with a consumer tenant. This capability supports cross-tenant access and collaboration without moving data. A provider tenant is the organization that shares data externally, and a consumer tenant is the organization that accesses and uses that shared data.
 
    - DR for external data sharing ensures that shared data remains available and consistent during outages or failures. Key aspects include the following components:
 
