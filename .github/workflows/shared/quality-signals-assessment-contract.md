@@ -20,7 +20,7 @@ Spend effort in proportion to the selected finding, not the article's overall co
 - Spend about **120 seconds** or less resolving material objections from the challenger against its evidence.
 - If a time target is reached, try to wrap up your work expeditiously.
 
-## Three completed outcomes
+## Completed outcomes
 
 Choose exactly one outcome:
 
@@ -29,6 +29,9 @@ Choose exactly one outcome:
 | `not-present` | The reported problem isn't present in current content. No action is warranted. |
 | `present-no-change` | The reported condition exists, but leaving it unchanged is preferable for the stated reasons. |
 | `present-change-recommended` | The condition exists and a specific preferred change is warranted for the stated reasons. |
+| `unverified` | Access restrictions or retrieval errors prevented link verification. The review is complete, but no action could be taken. |
+
+For `unverified`, record the attempted URL and sanitized failure in `evidence`. Complete the challenge using available evidence without retrying a known restriction. This limitation alone doesn't require `report_incomplete`.
 
 ## Assessment result
 
@@ -50,7 +53,7 @@ Use this JSON shape for the initial investigation and final assessment, not as t
 }
 ```
 
-Always explain the recommendation: no further action for `not-present`, leave as-is for `present-no-change`, or the preferred correction for `present-change-recommended`. Initial `review_resolutions` is empty; the final array answers every objection in order, including evidence-backed disagreement.
+Always explain the recommendation: no further action for `not-present`, leave as-is for `present-no-change`, the preferred correction for `present-change-recommended`, or the verification limitation for `unverified`. Initial `review_resolutions` is empty; the final array answers every objection in order, including evidence-backed disagreement.
 
 ## Persist the record and maintain the guide
 
@@ -67,7 +70,7 @@ After an acknowledged creation call for `present-change-recommended`, set `hande
 When storage or processing conventions change, update `guide.md` in the same run with:
 
 - Actual locations, fields, values, lifecycle transitions, handoff-reference resolution, selection/re-evaluation rules, and history preservation.
-- Retrieval commands for finding assessments, unassessed records, assessed change/no-change outcomes, and handed-off records.
+- Retrieval commands for finding assessments, unassessed records, assessed outcomes, and handed-off records.
 - How future workflows update processing state without replacing assessments or imported data.
 
 Replace obsolete separate-status instructions, preserving unrelated legacy fields, history, import instructions, and documentation. At the next completed assessment update, replace any guide instruction to keep working files in memory with record-only persistence and run-scoped `upload_artifact` retention.
