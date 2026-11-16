@@ -15,9 +15,9 @@
 	<![CDATA[
 		.st1 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st2 {fill:#107c10;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
-		.st3 {fill:#ffffff;font-family:Segoe UI;font-size:0.833336em}
+		.st3 {fill:#ffffff;font-family:'Segoe UI', system-ui;font-size:0.833336em}
 		.st4 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
-		.st5 {fill:#000000;font-family:Segoe UI;font-size:0.833336em}
+		.st5 {fill:#000000;font-family:'Segoe UI', system-ui;font-size:0.833336em}
 		.st6 {font-size:1em}
 		.st7 {fill:none;stroke:#4472c4;stroke-dasharray:5.25,3.75;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
 		.st8 {fill:#feffff;stroke:none;stroke-width:0.25}
@@ -32,7 +32,7 @@
 		.st17 {fill:#ffffff;fill-opacity:0.2;stroke:none;stroke-linecap:butt;stroke-width:0.75}
 		.st18 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:0.75}
 		.st19 {marker-end:url(#mrkr4-48);marker-start:url(#mrkr4-46);stroke:#000000;stroke-dasharray:3.75,3.75;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
-		.st20 {fill:#ffffff;font-family:Segoe UI;font-size:0.833336em;font-weight:bold}
+		.st20 {fill:#ffffff;font-family:'Segoe UI', system-ui;font-size:0.833336em;font-weight:bold}
 		.st21 {fill:#ffffff;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
 		.st22 {fill:url(#grad0-157);stroke:none;stroke-linecap:butt;stroke-width:35.9596}
 		.st23 {fill:#003067;stroke:none;stroke-linecap:butt;stroke-width:35.9596}
@@ -59,7 +59,7 @@
 		.st44 {fill:url(#grad7-497);stroke:none;stroke-linecap:butt;stroke-width:0.696361}
 		.st45 {fill:#5ea0ef;stroke:none;stroke-linecap:butt;stroke-width:33.5821}
 		.st46 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:33.5821}
-		.st47 {fill:#000000;font-family:Segoe UI;font-size:0.833336em;font-style:italic}
+		.st47 {fill:#000000;font-family:'Segoe UI', system-ui;font-size:0.833336em;font-style:italic}
 		.st48 {font-size:1em;font-style:normal}
 		.st49 {fill:#ffffff;stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
 		.st50 {stroke:#000000;stroke-linecap:butt;stroke-width:1.5}
