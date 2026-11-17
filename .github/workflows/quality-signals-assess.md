@@ -130,11 +130,11 @@ For a missing or ambiguous explicit ID, write `finding: null`, eligible count ze
 5. Resolve every objection and write `quality-signals-assessment.json`, responding to objections in order. You own the judgment; consensus isn't required.
 6. Persist the completed assessment and recommendation as `assessed` under the contract, then [choose the handoff](#choose-the-handoff).
 
-If required content, tools, or independent review are unavailable, report the actual blocker with `report_incomplete` and proceed to [Completion](#completion). Never invent a judgment or reset a record to `unassessed` for eligibility.
+If required article content, tools, or independent review are unavailable, report the actual blocker with `report_incomplete` and proceed to [Completion](#completion). Never invent a judgment or reset a record to `unassessed` for eligibility.
 
 ## Choose the handoff
 
-For `not-present` or `present-no-change`, choose `none-needed`: retain `assessed`, leave articles unchanged, and create no issue or PR.
+For `not-present`, `present-no-change`, or `unverified`, choose `none-needed`: retain `assessed`, leave articles unchanged, and create no issue or PR.
 
 For `present-change-recommended`, choose:
 

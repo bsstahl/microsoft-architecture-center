@@ -18,7 +18,7 @@
 		.st2 {fill:#dcdcdc;stroke:#000000;stroke-width:0.25}
 		.st3 {fill:#a5a5a5;stroke:#000000;stroke-width:0.25}
 		.st4 {fill:#bfbfbf;stroke:#000000;stroke-width:0.25}
-		.st5 {fill:#ffffff;font-family:Segoe UI;font-size:1.00001em}
+		.st5 {fill:#ffffff;font-family:'Segoe UI', system-ui;font-size:1.00001em}
 		.st6 {fill:#82bb5b;stroke:#70ad47;stroke-width:0.25}
 		.st7 {fill:#406228;stroke:#70ad47;stroke-width:0.25}
 		.st8 {fill:#538135;stroke:#70ad47;stroke-width:0.25}
@@ -39,9 +39,9 @@
 		.st23 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:0.75}
 		.st24 {fill:#b3b3b3;fill-opacity:0.15;stroke:none;stroke-linecap:butt;stroke-width:0.75}
 		.st25 {fill:#a3a3a3;fill-opacity:0.086;stroke:none;stroke-linecap:butt;stroke-width:0.75}
-		.st26 {fill:#000000;font-family:Segoe UI;font-size:1.00001em}
+		.st26 {fill:#000000;font-family:'Segoe UI', system-ui;font-size:1.00001em}
 		.st27 {fill:none;stroke:none;stroke-width:0.25}
-		.st28 {fill:#000000;font-family:Segoe UI;font-size:0.916672em}
+		.st28 {fill:#000000;font-family:'Segoe UI', system-ui;font-size:0.916672em}
 		.st29 {font-size:1em}
 		.st30 {fill:#000000}
 		.st31 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}

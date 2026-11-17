@@ -161,7 +161,7 @@ safe-outputs:
     max: 1
     if-no-changes: error
     fallback-as-issue: false
-    allowed-files: ["**/*.[sS][vV][gG]"]
+    allowed-files: ["**/*.svg"]
     max-patch-files: 5
     signed-commits: true
   noop:
